@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --header-bg: #f6bdd1;
 }
 
 @theme inline {
@@ -16,8 +17,11 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    /* --header-bg: #f2a9c4; */
   }
 }
+
+html, body { margin: 0; padding: 0; } /* önemli */
 
 body {
   background: var(--background);
