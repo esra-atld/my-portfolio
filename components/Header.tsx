@@ -37,7 +37,7 @@ export default function Header() {
     <header
       style={
         {
-          ["--header-bg" as any]: "#f6bdd1", // pembe ton — istersen burayı değiştir
+         "--header-bg": "#f6bdd1", // pembe ton — istersen burayı değiştir
         } as React.CSSProperties
       }
       className={`${uiFont.className} sticky top-0 z-50 border-b !bg-[var(--header-bg)] text-neutral-900 antialiased`}
